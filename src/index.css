@@ -12,6 +12,10 @@
   );
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @theme {
   --font-montserrat: "Montserrat", sans-serif;
   --font-work-sans: "Work Sans", sans-serif;

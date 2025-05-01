@@ -17,25 +17,25 @@ export const HamburgerMenu = () => {
 
       <div className="hidden lg:flex space-x-6  absolute left-1/2 -translate-x-1/2 top-11">
         <a
-          href="/"
+          href="#home"
           className="text-lg font-montserrat text-gray-600 hover:text-primary "
         >
           Home
         </a>
         <a
-          href="/about"
+          href="#about"
           className="text-lg font-montserrat text-gray-600 hover:text-primary "
         >
           Sobre
         </a>
         <a
-          href="/services"
+          href="#services"
           className="text-lg font-montserrat text-gray-600 hover:text-primary "
         >
           Servições
         </a>
         <a
-          href="/contact"
+          href="#contact"
           className="text-lg font-montserrat text-gray-600 hover:text-primary "
         >
           Contato
@@ -67,28 +67,28 @@ export const HamburgerMenu = () => {
           <div>
             <nav>
               <a
-                href="/"
+                href="#home"
                 className="font-montserrat text-lg block w-80 rounded-2xl p-2 hover:bg-primary  hover:text-white  transition-all duration-300 mask-fade-lr"
                 onClick={() => setIsOpen(false)}
               >
                 Home
               </a>
               <a
-                href="/about"
+                href="#about"
                 className="font-montserrat text-lg block w-80 rounded-2xl p-2 hover:bg-primary  hover:text-white  transition-all duration-300 mask-fade-lr"
                 onClick={() => setIsOpen(false)}
               >
                 Sobre
               </a>
               <a
-                href="/services"
+                href="#services"
                 className="font-montserrat text-lg block w-80 rounded-2xl p-2 hover:bg-primary  hover:text-white  transition-all duration-300 mask-fade-lr bg-opa"
                 onClick={() => setIsOpen(false)}
               >
                 Serviços
               </a>
               <a
-                href="/contact"
+                href="#contact"
                 className="font-montserrat text-lg block w-80 rounded-2xl p-2 hover:bg-primary  hover:text-white  transition-all duration-300 mask-fade-lr"
                 onClick={() => setIsOpen(false)}
               >
