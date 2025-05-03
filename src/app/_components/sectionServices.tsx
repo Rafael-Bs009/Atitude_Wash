@@ -44,19 +44,19 @@ export function Services() {
                 >
                   <Card className="h-full">
                     <CardHeader>
-                      <CardTitle className="text-lg font-bold">
-                        <div className="flex-1 flex items-start  gap-2">
-                          <div className="text-3xl text-primary select-none">
+                      <CardTitle className="font-bold ">
+                        <div className="flex-1 flex gap-2">
+                          <div className="text-2xl lg:text-3xl text-primary select-none">
                             {service.icon}
                           </div>
-                          <div className="text-lg  select-none tracking-wide font-montserrat">
+                          <div className="text-sm md:text-lg select-none tracking-wide font-montserrat">
                             {service.title}
                           </div>
                         </div>
                       </CardTitle>
                     </CardHeader>
                     <CardContent className="flex-grow ">
-                      <CardDescription className="text-sm text-gray-800  font-work-sans select-none ps-9">
+                      <CardDescription className="text-sm text-gray-800  font-work-sans select-none">
                         {service.description}
                       </CardDescription>
                     </CardContent>
