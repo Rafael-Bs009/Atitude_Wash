@@ -55,7 +55,7 @@ export function Services() {
                         </div>
                       </CardTitle>
                     </CardHeader>
-                    <CardContent className="flex-grow ">
+                    <CardContent className="flex-grow text-center">
                       <CardDescription className="text-sm text-gray-800  font-work-sans select-none">
                         {service.description}
                       </CardDescription>
