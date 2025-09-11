@@ -72,12 +72,18 @@ export function EndCta() {
         </div>
 
         <div className="mt-16">
-          <Button
-            size="lg"
-            className="bg-primary text-white hover:bg-orange-700 font-bold font-montserrat cursor-pointer"
+          <a
+            href="https://wa.me/5511985338018?text=Ol%C3%A1,%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações!"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Quero agendar agora
-          </Button>
+            <Button
+              size="lg"
+              className="bg-primary text-white hover:bg-orange-700 font-bold font-montserrat cursor-pointer"
+            >
+              Quero agendar agora
+            </Button>
+          </a>
         </div>
       </div>
     </section>

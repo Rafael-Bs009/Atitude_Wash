@@ -15,26 +15,38 @@ export function Footer() {
                 família.
               </p>
             </div>
-            <div className="flex flex-col   max-w-sm items-center" id="contact">
-              <h3 className="font-bold font-montserrat-alternates text-2xl mb-2 ">
+            <div className="flex flex-col max-w-sm items-center" id="contact">
+              <h3 className="font-bold font-montserrat-alternates text-2xl mb-2">
                 Contatos
               </h3>
-              <p className="font-work-sans text-orange-50 lg:text-lg font-light ">
-                Email: test@teste.com
-              </p>
-              <p className="font-work-sans text-orange-50 lg:text-lg font-light ">
-                Telefone: (xx) 123123123
-              </p>
+
+              {/* Email */}
+              <a
+                href="mailto:roverasilva.1@gmail.com?subject=Contato%20pelo%20site"
+                className="font-work-sans text-orange-50 lg:text-lg font-light hover:underline"
+              >
+                Email: roverasilva.1@gmail.com
+              </a>
+
+              {/* Telefone */}
+              <a
+                href="tel:+5511985338018"
+                className="font-work-sans text-orange-50 lg:text-lg font-light hover:underline"
+              >
+                Telefone: (11) 98533-8018
+              </a>
             </div>
-            <div className="flex flex-col  max-w-sm items-center" id="redes">
-              <h3 className="font-bold font-montserrat-alternates text-2xl mb-2 ">
+
+            <div className="flex flex-col max-w-sm items-center" id="redes">
+              <h3 className="font-bold font-montserrat-alternates text-2xl mb-2">
                 Redes sociais
               </h3>
               <div className="flex gap-4 items-center justify-center">
                 <a
-                  className="font-work-sans text-orange-50 lg:text-lg font-light "
-                  href="#"
+                  href="https://instagram.com/rogerioribeiro1715"
                   target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-work-sans text-orange-50 lg:text-lg font-light"
                 >
                   <InstagramLogo size={30} />
                 </a>

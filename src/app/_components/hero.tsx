@@ -20,7 +20,9 @@ export function Hero() {
 
             <div className="flex flex-col justify-end items-end">
               <motion.a
-                href="#"
+                href="https://wa.me/5511985338018?text=Ol%C3%A1,%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações!"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-white bg-green-500 hover:bg-green-600 px-5 py-2 rounded-md font-semibold flex items-center justify-center w-fit gap-2 select-none transition-all duration-300"
                 onHoverStart={() => {
                   controls.start({

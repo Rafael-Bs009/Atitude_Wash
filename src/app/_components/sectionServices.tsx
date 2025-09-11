@@ -61,26 +61,28 @@ export function Services() {
                       </CardDescription>
                     </CardContent>
                     <CardFooter className="flex justify-center items-center">
-                      <motion.button>
-                        <Button
-                          className="cursor-pointer select-none text-white  bg-green-500 hover:bg-green-600 transition-all duration-300"
-                          onMouseEnter={() => {
-                            controls.start({
-                              rotate: [0, -10, 10, -10, 10, 0],
-                              transition: { duration: 0.5 },
-                            });
-                          }}
-                          onMouseLeave={() => {
-                            controls.stop();
-                            controls.start({ rotate: 0 });
-                          }}
-                        >
+                      <motion.a
+                        href="https://wa.me/5511985338018?text=Ol%C3%A1,%20vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações!"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onMouseEnter={() => {
+                          controls.start({
+                            rotate: [0, -10, 10, -10, 10, 0],
+                            transition: { duration: 0.5 },
+                          });
+                        }}
+                        onMouseLeave={() => {
+                          controls.stop();
+                          controls.start({ rotate: 0 });
+                        }}
+                      >
+                        <Button className="cursor-pointer select-none text-white bg-green-500 hover:bg-green-600 transition-all duration-300">
                           <motion.span animate={controls} className="w-5 h-5">
                             <WhatsappLogo className="size-5 items-center" />
                           </motion.span>
                           <span>Contato via WhatsApp</span>
                         </Button>
-                      </motion.button>
+                      </motion.a>
                     </CardFooter>
                   </Card>
                 </CarouselItem>
